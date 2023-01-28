@@ -1,6 +1,5 @@
 public class Main {
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) {
      /* Задача 1
         переменной dog значение 8.0;
         переменной cat значение 3.6;
@@ -35,5 +34,16 @@ public class Main {
         System.out.println("cat = " + (cat - 1.6));
         System.out.println("paper = " + (paper - 7_639));
         System.out.println(" ");
+        /*
+        * Инициализируйте (присвойте значение) переменную friend значением 19.
+          Увеличьте значение переменной на 2, после чего поделите значение на 7.
+           После каждой операции выводите значение переменной в консоль. */
+        var friend = 19;
+        System.out.println(friend);
+            friend += 2;
+        System.out.println(friend);
+            friend = friend / 7;
+        System.out.println(friend);
+
     }
 }
