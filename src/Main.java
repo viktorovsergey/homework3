@@ -1,5 +1,6 @@
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args)
+    {
      /* Задача 1
         переменной dog значение 8.0;
         переменной cat значение 3.6;
