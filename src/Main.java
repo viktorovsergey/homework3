@@ -14,5 +14,16 @@ public class Main {
         System.out.println("cat = " + cat);
         System.out.println("paper = " + paper);
         System.out.println(" ");
+          /* Задача 2
+        Увеличьте значение каждой перечисленной в прошлой задаче переменной на 4.
+        Выведите в консоль новые значения переменных.
+        * */
+        dog = dog + 4;
+        cat += 4;
+        paper += 4;
+        System.out.println("dog = " + dog);
+        System.out.println("cat = " + cat);
+        System.out.println("paper = " + paper);
+        System.out.println(" ");
     }
 }
