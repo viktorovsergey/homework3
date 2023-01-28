@@ -1,3 +1,5 @@
+import javax.annotation.processing.SupportedOptions;
+
 public class Main {
     public static void main(String[] args) {
      /* Задача 1
@@ -40,10 +42,29 @@ public class Main {
            После каждой операции выводите значение переменной в консоль. */
         var friend = 19;
         System.out.println(friend);
-            friend += 2;
+        friend += 2;
         System.out.println(friend);
-            friend = friend / 7;
+        friend = friend / 7;
         System.out.println(friend);
+        System.out.println(" ");
+
+        /*
+        Инициализируйте переменную frog значением 3.5.
+        Увеличьте переменную в 10 раз и поделите на 3.5.
+        Добавьте к последнему значению переменной 4.
+        После каждой операции выводите значение переменной в консоль.
+        * */
+
+        var frog = 3.5;
+        System.out.println(frog);
+        frog *= 10;
+        System.out.println(frog);
+        frog /= 3.5;
+        System.out.println(frog);
+        frog += 4;
+        System.out.println(frog);
+        System.out.println();
+
 
     }
 }
