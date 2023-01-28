@@ -76,6 +76,8 @@ public class Main {
         System.out.println("Общий вес боксеров = " + (boxer2 + boxer2));
         System.out.println("Разница в весе боксеров = " + (boxer2 - boxer1));
         System.out.println();
+        System.out.println("Разница в весе боксеров = " + (boxer2%boxer1));
+
 
     }
 }
