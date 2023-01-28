@@ -25,5 +25,15 @@ public class Main {
         System.out.println("cat = " + cat);
         System.out.println("paper = " + paper);
         System.out.println(" ");
+         /* Задача 3
+          dog уменьшить на 3.5;
+         cat уменьшить на 1.6;
+          paper уменьшить на 7639.
+          Выведите в консоль новые значения переменных
+        * */
+        System.out.println("dog = " + (dog - 3.5));
+        System.out.println("cat = " + (cat - 1.6));
+        System.out.println("paper = " + (paper - 7_639));
+        System.out.println(" ");
     }
 }
