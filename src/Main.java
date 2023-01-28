@@ -65,6 +65,17 @@ public class Main {
         System.out.println(frog);
         System.out.println();
 
+        /*
+         Вес одного боксера — 78.2 кг.
+         Вес второго боксера — 82.7 кг.
+         Подсчитайте и выведите в консоль общий вес двух бойцов.
+         Подсчитайте и выведите в консоль разницу между весами бойцов
+         */
+        var boxer1 = 78.2;
+        var boxer2 = 82.7;
+        System.out.println("Общий вес боксеров = " + (boxer2 + boxer2));
+        System.out.println("Разница в весе боксеров = " + (boxer2 - boxer1));
+        System.out.println();
 
     }
 }
