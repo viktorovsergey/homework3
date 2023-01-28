@@ -1,5 +1,3 @@
-import javax.annotation.processing.SupportedOptions;
-
 public class Main {
     public static void main(String[] args) {
      /* Задача 1
@@ -94,6 +92,8 @@ public class Main {
         System.out.println(" Если в компании работает — " + (managers + 94) + " человек, то всего " + ((managers+94)*8) +
                 " часа(ов) будет поделено между сотрудниками");
         System.out.println();
+
+
 
 
 
